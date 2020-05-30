@@ -1,13 +1,18 @@
 ul li a {
-    font-family: 'Montserrat', sans-serif;    
-    border-bottom: 1px solid rgba(255, 255, 255, 0);
+  color:#737373;
+  font-size:13px;
+  text-transform:uppercase;
+  letter-spacing:2px;
+  transition: .2s;
+  border-bottom: 1px solid rgba(255, 255, 255, 0);
 }
+
 ul li a:hover {
-    color: white;
-    border-bottom: 1px solid #ff062a;
-    transition: .2s;
+  color: white;
+  border-bottom: 1px solid #ff062a;
+  transition: .2s;
 }
 
 .nbg-color{
-    background-color: #121212;
+  background-color: #121212;
 }
