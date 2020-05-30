@@ -1,0 +1,29 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Conjuntinho especial",
+      "price": "27,46"
+    },
+    {
+      "id": 2,
+      "name": "Conjuntinho 2",
+      "price": 10.99
+    },
+    {
+      "id": 3,
+      "name": "Conjuntinho 3",
+      "price": 32.89
+    },
+    {
+      "id": 4,
+      "name": "Conjuntinho especial 2",
+      "price": "27,46"
+    },
+    {
+      "id": 5,
+      "name": "Conjuntinho especial 3",
+      "price": "27,46"
+    }
+  ]
+}
