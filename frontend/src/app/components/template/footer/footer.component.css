@@ -1,0 +1,22 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+ul li a{    
+    border-bottom: 1px solid rgb(255, 255, 255);
+    color: rgba(255,255,255,.75);
+}
+ul li a:hover {
+    color: white;
+    border-bottom: 1px solid #ff062a;
+    transition: .2s;
+}
+
+.fbg-color{
+    background-color: #121212;
+}
