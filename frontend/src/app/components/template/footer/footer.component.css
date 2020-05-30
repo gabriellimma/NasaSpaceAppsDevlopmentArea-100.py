@@ -28,7 +28,7 @@
 }
 
 .site-footer a:hover {
-  color: #14b9bc;
+  color: crimson;
   text-decoration:none;
 }
 
@@ -46,7 +46,7 @@
 }
 
 .footer-links a:active,.footer-links a:focus,.footer-links a:hover {
-  color:#14b9bc;
+  color:crimson;
   text-decoration:none;
 }
 
@@ -92,7 +92,7 @@
   font-size:13px
 }
 
-.social-icons a {
+.social-icons a{
   background-color:#eceeef;
   color:#818a91;
   font-size:16px;
@@ -108,6 +108,14 @@
   transition:all .2s linear;
 }
 
+.nasa-logo  {
+  max-width: 80%;
+  padding-bottom: 15%;
+  padding-left: 5%;
+}
+
+
+
 .social-icons a:active,.social-icons a:focus,.social-icons a:hover {
   color:#fff;
   background-color:#29aafe;
@@ -120,24 +128,38 @@
   font-size:14px
 }
 
-.social-icons a.facebook:hover {
+.social-icons a {
+  transition: 0.5s;
+}
+
+.social-icons a.nasa:hover {
+  background: linear-gradient(to bottom right,#0066B3, #ED1C24);
+  transition: 0.5s;
+}
+
+.social-icons a.linkedin:hover {
   background: #00c6ff;
-  background: linear-gradient(to top, #0072ff, #00c6ff);
+  background: linear-gradient(to top, #002e67, #0077B5);
+  transition: 0.5s;
 }
 
 .social-icons a.instagram:hover {
   background: #f09433;
   background: linear-gradient(180deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  transition: 0.5s;
 }
 
 .social-icons a.twitter:hover {
   background: #24C6DC;
   background: linear-gradient(to top, #514A9D, #24C6DC);
+  transition: 0.5s;
 }
 
-.social-icons a.youtube:hover {
-  background: #e52d27;
-  background: linear-gradient(to top, #b31217, #e52d27);
+
+.social-icons a.github:hover {
+  background: #24292E;
+  background: linear-gradient(to top, #24292E,#3F4448);
+  transition: 0.5s;
 }
 
 
