@@ -1,0 +1,21 @@
+.linkedin{
+  color: black;
+  font-size: x-large;
+  transition: 0.5s;
+}
+.github{
+  color: black;
+  font-size: x-large;
+}
+
+.linkedin:hover{
+  color: #0077B5;
+  transition: 0.3s;;
+}
+.github:hover{
+  color: #0077B5;
+  transition: 0.3s;
+}
+.jumbotron{
+  margin: 0;
+}
