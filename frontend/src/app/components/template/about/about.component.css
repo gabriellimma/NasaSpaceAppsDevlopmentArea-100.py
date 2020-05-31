@@ -1,11 +1,7 @@
-.linkedin{
-  color: black;
+.linkedin, .github{
+  color: #737373;
   font-size: x-large;
   transition: 0.5s;
-}
-.github{
-  color: black;
-  font-size: x-large;
 }
 
 .linkedin:hover{
@@ -13,9 +9,24 @@
   transition: 0.3s;;
 }
 .github:hover{
-  color: #0077B5;
+  color: rgb(24, 24, 24);
   transition: 0.3s;
 }
 .jumbotron{
   margin: 0;
+}
+
+
+.team {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 700;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 600;
+  font-weight: 600;
+  text-transform: uppercase;
 }
