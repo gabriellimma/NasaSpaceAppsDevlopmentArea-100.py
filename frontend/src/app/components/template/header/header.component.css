@@ -24,5 +24,10 @@ ul li a:hover {
 }
 
 .nbg-color{
-  background-color: #121212;
+  background-color: #000000;
+}
+
+.nav{
+  position: absolute;
+  z-index: 9999;
 }
