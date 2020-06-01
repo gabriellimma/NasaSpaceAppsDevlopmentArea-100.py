@@ -1,5 +1,53 @@
 <div class="container">
-  <p>
+  <h4 class="text-center mt-3">Project: ScorVid/PandeMap</h4>
+  <h5>Team: 100.py</h5>
+  <h5> ScorVid:</h5>
 
+  <p> <b> I – Creating a score for each country </b></p>
+  <p>
+    We based our score on the HDI – Human Development Index, which is composed by health (life expectancy), education
+    and income. For the ScorVid, we have used only the variables of health and income, because these are the most
+    correlated variables in our judgement. In addition, we have analyzed two more variables: management of the public
+    sector according to the Corruption Perception Index and particular matter volume (pollution).
   </p>
+  <p> <b> II – Calculating the variables </b> </p>
+  <p>
+    Health: we have calculated the variable “health” with the most recent data extracted from the report “Life
+    expectance at birth” (2018) of the UNDP – United Nations Development Programme by using the formula:
+  </p>
+  <p class="text-center">
+    <b>
+      (X-MIN)/(MAX-MIN)
+    </b>
+  </p>
+  Where X is the life expectancy for the analyzed country, MIN is the minimal life expectancy of the dataset, and MAX is
+  the maximal life expectancy of the dataset.
+  <p>
+    Income: we have calculated the variable “income” with data extracted from the report “Gross domestic product per
+    capita, current prices” (2019) projected for 2019 of the IMF – International Monetary Fund by using the formula:
+  </p>
+  <p class="text-center"><b>
+      [log(X)-log(MIN)]/[log(MAX)-log(MIN)]
+    </b>
+  </p>
+  <p>
+    Where X is the GDP (Gross Domestic Product) per capita for the analyzed country, MIN is the minimal value for GDP
+    per capita of the dataset, and MAX is the maximal value for GDP per capita of the dataset.
+  </p>
+  <p>
+    Management of the public sector: we have calculated the variable “document” with data extracted from “CPI –
+    Corruption Perceptions Index” of the Transparency International, by using the formula:
+  </p>
+  <p class="text-center">
+    <b>
+      (X-MIN)/(MAX-MIN)
+    </b>
+  </p>
+  <p>
+    Where X is the the CPI value for the analyzed country, MIN is the minimal value of the dataset, and MAX is the
+    maximal value of the dataset.
+  </p>
+
+  <h4>See our machine learning algorithms:</h4>
+  <a class="btn btn-outline-dark mb-5" href="https://github.com/bielzin42/NasaSpaceAppsDevlopmentArea-100.py/blob/master/Regre%C3%A7%C3%A3o_Linear_multipla.ipynb" target="_blank"> <i class="fab fa-github"></i> Github</a>
 </div>
